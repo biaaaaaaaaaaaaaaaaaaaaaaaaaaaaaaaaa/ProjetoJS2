@@ -7,6 +7,23 @@
     <title>Projeto</title>
 </head>
 <body>
+    <header>
+        <h2 id="titulo">Título Original</h2>
+        <h1>Meu App Produtos</h1>
+    </header>
+    <main class="conteiner">
+        <div class="btns">
+            <button onclick="todosProdutos()">Mostrar Todos(Map)</button>
+            <button onclick="filtrarPromoções()">Apenas Promoções(Filter)</button>
+            <button onclick="calcularTotal()">Calcular Total (Reduce)</button>
+        </div>
+
+        <div id="listar-produtos" class="Produtos"></div>
+        <div id="resultado-total"></div>
+    </main>
+
+
+
     <h1 id="titulo">Título Original</h1>
     <script src="./src/js/script.js"></script>
 </body>

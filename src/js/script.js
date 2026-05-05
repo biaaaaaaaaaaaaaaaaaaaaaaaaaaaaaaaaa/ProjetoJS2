@@ -1,4 +1,4 @@
-// LIMPEZA E VALIDAÇÃO
+ // LIMPEZA E VALIDAÇÃO
 
 const email=" email@email.com";
 //trim remove os espaços inicio e fim
